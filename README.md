@@ -23,7 +23,7 @@ A diferencia de una animación puramente ilustrativa, el simulador **construye c
 
 - Python 3.8 o superior (probado con 3.13)
 - Tkinter (incluido en la distribución estándar de Python en Windows y macOS; en Linux instalar `python3-tk` si no está presente)
-- Sin dependencias externas — solo usa módulos de la librería estándar: `base64`, `random`, `struct`, `textwrap`, `zlib`, `tkinter`
+- Sin dependencias externas solo usa módulos de la librería estándar: `base64`, `random`, `struct`, `textwrap`, `zlib`, `tkinter`
 
 ## Instalación y ejecución
 
