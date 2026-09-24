@@ -28,8 +28,8 @@ A diferencia de una animación puramente ilustrativa, el simulador **construye c
 ## Instalación y ejecución
 
 ```bash
-git clone https://github.com/<tu-usuario>/<tu-repo>.git
-cd <tu-repo>
+git clone https://github.com/Crespo3989/Simulador-OSI-Grupo-7-.git
+cd Simulador-OSI-Grupo-7-
 python simulador_osi.py
 ```
 
