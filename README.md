@@ -1,6 +1,6 @@
 # Simulador OSI
 
-Simulador interactivo de **encapsulamiento y desencapsulamiento de datos** a través de las 7 capas del modelo de referencia **OSI**, escrito en Python 3 con Tkinter (solo librería estándar, sin dependencias externas).
+Simulador interactivo de **encapsulamiento y desencapsulamiento de datos** a través de las 7 capas del modelo de referencia **OSI**, escrito en Python 3 con Tkinter.
 
 A diferencia de una animación puramente ilustrativa, el simulador **construye cabeceras binarias reales** en cada capa (Ethernet II, IPv4, TCP/UDP), calcula sus checksums y su CRC-32 exactamente igual que una pila de red real, y permite inspeccionar el resultado en hexadecimal, byte a byte.
 
@@ -80,6 +80,4 @@ Para el detalle técnico completo (cómo se calcula cada checksum, cómo se gene
 - El cifrado XOR es exclusivamente didáctico, no es un mecanismo de seguridad real.
 - No simula pérdida de paquetes, fragmentación, retransmisión ni control de congestión.
 
-## Licencia
 
-Agrega aquí la licencia que quieras usar (por ejemplo, MIT). Si no sabes cuál elegir, [choosealicense.com](https://choosealicense.com/) es un buen punto de partida.
