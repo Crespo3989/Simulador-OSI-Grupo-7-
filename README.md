@@ -67,13 +67,6 @@ El proyecto vive en un único archivo, organizado en cuatro bloques:
 | Modelo de dominio | `OSIModel` — encapsula el mensaje en las 7 capas y expone `stages`, `fields`, `total_bytes()`, `raw()` |
 | Interfaz gráfica | `OSISimulator` (Tkinter) — configuración, animación, panel de detalle y panel de contenido del PDU |
 
-Para el detalle técnico completo (cómo se calcula cada checksum, cómo se generan los 16 pasos de la animación, cómo se dibuja cada panel) revisa el **Manual técnico y guía de usuario** incluido en el repositorio.
-
-## Documentación adicional
-
-- `Manual tecnico y guia de usuario - Simulador OSI.docx` — arquitectura interna, guía de uso paso a paso, solución de problemas y glosario.
-- `Analisis de resultados - Simulador OSI.docx` — cifras reales de overhead por capa, comparativa de protocolos y codificaciones, y verificación del CRC-32/checksum.
-
 ## Limitaciones conocidas
 
 - Es una simulación local dentro de un mismo proceso: no envía tráfico por una red real ni usa sockets.
