@@ -8,7 +8,7 @@ Este documento cuantifica, con cifras exactas obtenidas directamente del motor d
 
 ## 2. Metodología
 
-Se ejecutó la clase `OSIModel` —el mismo código que usa la interfaz gráfica— de forma directa, sin la ventana de Tkinter, variando un parámetro a la vez y manteniendo el resto constante en la configuración base:
+Se ejecutó la clase `OSIModel` el mismo código que usa la interfaz gráfica de forma directa, sin la ventana de Tkinter, variando un parámetro a la vez y manteniendo el resto constante en la configuración base:
 
 | Parámetro base | Valor |
 |---|---|
